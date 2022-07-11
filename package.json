@@ -1,0 +1,42 @@
+{
+	"name": "younho9",
+	"version": "0.0.0",
+	"description": "Hi, I'm younho9",
+	"keywords": [
+		"about",
+		"me",
+		"personal",
+		"link"
+	],
+	"homepage": "https://github.com/younho9/younho9#readme",
+	"bugs": {
+		"url": "https://github.com/younho9/younho9/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/younho9/younho9.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Younho Choo",
+		"email": "yo+github@younho9.com",
+		"url": "https://yh9.page/blog"
+	},
+	"type": "module",
+	"main": "index.js",
+	"bin": {
+		"younho9": "./index.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"open": "^8.4.0"
+	},
+	"devDependencies": {
+		"sort-package-json": "^1.57.0"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	}
+}
